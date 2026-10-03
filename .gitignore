@@ -1,0 +1,14 @@
+.DS_Store
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxl.autosave
+.tools/
+
+# Generated builds, machine-specific logs, and local credentials
+dist/
+tests/results/
+*.log
+.env
+.env.*
+__pycache__/
+*.pyc

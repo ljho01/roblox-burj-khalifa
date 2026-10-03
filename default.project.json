@@ -1,0 +1,56 @@
+{
+  "name": "Build the Burj",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Game": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMaxZoomDistance": 420,
+        "CameraMinZoomDistance": 6
+      },
+      "StarterPlayerScripts": {
+        "GameClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 196.2,
+        "FallenPartsDestroyHeight": -100
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.55,
+          0.57,
+          0.65
+        ],
+        "OutdoorAmbient": [
+          0.7,
+          0.72,
+          0.8
+        ],
+        "Brightness": 2.5,
+        "ClockTime": 16,
+        "GlobalShadows": true,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
